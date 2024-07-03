@@ -1,10 +1,7 @@
-n = int(input("Enter a number:"))
-i = 1
-while (i <= n):
-    j = 1
-    while(j <= i):
+positive_integer = int(input("Enter the size of the pattern:"))
+n = positive_integer
+for i in range(n):
+    for j in range(n):
         print("*", end= "")
-        j = i
     print()
-    i = i + 1
     
