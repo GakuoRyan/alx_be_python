@@ -1,7 +1,8 @@
-positive_integer = int(input("Enter the size of the pattern:"))
-n = positive_integer
-for i in range(n):
-    for j in range(n):
-        print("*", end= "")
-    print()
+size = int(input("Enter the size of the pattern: "))
+row = 0
+while row < size:
+    for _ in range(size):
+        print("*", end="")
+    print()  
+    row += 1
     
