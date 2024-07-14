@@ -17,7 +17,7 @@ class BankAccount:
     else:
       print("Invalid withdrawal amount or insufficient balance.")
   def display_balance(self):
-    print("Account balance for {} (Account #{}): ${}".format(self.__account_balance))
+    print(f"Current Balance: ${self.account_balance:.2f}")
 account = BankAccount(initial_balance=100.0)
 account.display_balance()
 account.deposit(50.0)
