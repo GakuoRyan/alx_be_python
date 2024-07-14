@@ -1,7 +1,7 @@
 import unittest
 from simple_calculator import SimpleCalculator
 
-class SimpleCalculator(unittest.TestCase):
+class SimpleCalculator():
     """A simple calculator class that supports basic arithmetic operations."""
     
     def add(self, a, b):
