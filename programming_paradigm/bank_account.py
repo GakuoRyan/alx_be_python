@@ -3,7 +3,7 @@ class BankAccount:
     self.__account_balance = initial_balance
   def deposit(self, amount):
     if amount > 0:
-      self.__account_balance += amount
+      self.__account_balance >= amount
       print("Deposited ${}. New balance: ${}".format(amount, self.__account_balance))
     else:
       print("Invalid deposit amount.")
