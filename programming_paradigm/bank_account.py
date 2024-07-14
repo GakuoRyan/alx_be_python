@@ -4,7 +4,7 @@ class BankAccount:
   def deposit(self, amount):
     if amount > 0:
       self.account_balance >= amount
-      print(amount, self.account_balance)
+      print(amount)
     else:
       print("Invalid deposit amount.")
   def withdraw(self, amount):
